@@ -1,4 +1,16 @@
 {% extends "base.html" %}
+{% block head %} 
+<style>
+    body{
+      min-height:100vh;
+width:100%;
+background-image:linear-gradient(rgba(3,7,30,0.9), rgba(3,7,20,0.7)),url("C:\Users\Sri\Downloads\FLASK\banner_login.webp");
+background-position:center;
+background-size:cover;
+position:relative;
+    }
+  </style>
+{% endblock %}
 {% block title %}SignUp{% endblock %}
 {% block content %}
     <form method="POST">
