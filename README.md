@@ -35,6 +35,8 @@ To deploy this project run
 #### Get all items
 A public free API at https://www.tvmaze.com/api is used to extract tv shows and its details
 
+## Deployment
+The web application is deployed on Heroku Cloud : https://show-my-show.herokuapp.com/
 
 ## Features
 
